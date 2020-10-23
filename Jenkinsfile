@@ -7,3 +7,4 @@ podTemplate(label: BUILD_TAG, containers: [containerTemplate(name: 'maven', imag
     junit '**/target/surefire-reports/TEST-*.xml'
   }
 }
+
